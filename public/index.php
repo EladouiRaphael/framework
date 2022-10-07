@@ -19,14 +19,14 @@ use App\Kernel;
    // Chargement du fichier de configuration
    require_once dirname(__DIR__) . "/config/bootstrap.php";
 
-   if ( $_SERVER['REQUEST_URI'] == "/" ) 
-   {
-       dd("page d'accueil");
-   }
-   else 
-   {
-       dd("l'utilisateur veut accéder à une autre page");
-   }
+//    if ( $_SERVER['REQUEST_URI'] == "/" ) 
+//    {
+//        dd("page d'accueil");
+//    }
+//    else 
+//    {
+//        dd("l'utilisateur veut accéder à une autre page");
+//    }
 
     // Création d'une nouvelle instance du noyau de l'application
     $kernel = new App\Kernel($container);
